@@ -1,0 +1,16 @@
+{
+  "name": "lighthouse-runner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Run Google PageSpeed Insights (mobile + desktop, median of 3) against lists of live URLs and save full HTML reports.",
+  "scripts": {
+    "audit": "node audit.mjs"
+  },
+  "engines": {
+    "node": ">=18.20"
+  },
+  "dependencies": {
+    "lighthouse": "^13.0.0"
+  }
+}

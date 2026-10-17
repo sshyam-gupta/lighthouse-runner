@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# generated reports
+reports/
+
+# secrets – keep only the template
+.env
+.env*
+!.env.example
+
+# client URL lists – only the template is shared
+urls/*.txt
+!urls/example.txt
+
+# OS / editor noise
+.DS_Store
+*.log

@@ -1,0 +1,6 @@
+# Example URL list (template – real URL files in urls/*.txt are git-ignored).
+# Copy to urls/<name>.txt, one URL per line, # for comments, then run:
+#   npm run audit -- <name>
+#
+# https://example.com/
+# https://example.com/pricing
